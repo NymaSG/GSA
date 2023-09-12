@@ -10,3 +10,6 @@ def main(resp: bool = None) -> Union[bool, int]:
     if resp:
         return c
     return False
+
+if __name__ == "__main__":
+    main()
